@@ -7,7 +7,7 @@
   List<Student> students = new ArrayList<Student>();
   students.sort((Student s1, Student s2)->s1.getAge()-s2.getAge());
   
-  Instead
+  /*Instead*/
   Collections.sort(students, new Comparator<Student>() {
 
 				@Override
