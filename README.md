@@ -1,6 +1,6 @@
 # Java8FeaturesImplementation
 
-## Lambda Expression
+## 1. Lambda Expression
 - Sorting + Comparator + with/without Lambda Expression
 - Java8
 ```java
@@ -18,7 +18,7 @@
 	});
 ```
 
-## forEach
+## 2. forEach
 - List + Map+ with/without forEach
 - java 8
 ```java
