@@ -19,8 +19,8 @@
 ```
 
 # forEach
--List + Map+ with/without forEach
--java 8
+- List + Map+ with/without forEach
+- java 8
 ```java
 	/* forEach + lambda expression or method */
 	items.forEach(item -> System.out.println(item));
