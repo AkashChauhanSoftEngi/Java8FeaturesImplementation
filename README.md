@@ -24,7 +24,10 @@
 ```java
 	/* forEach + lambda expression or method */
 	items.forEach(item -> System.out.println(item));
-
+	
+	/*One more way to use forEach to print list*/
+	items.forEach(System.out::println);
+		
 	/* Output:-C */
 	items.forEach(item -> {
 		if ("C".equals(item)) {
