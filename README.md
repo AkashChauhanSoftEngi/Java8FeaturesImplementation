@@ -1,6 +1,6 @@
 # Java8FeaturesImplementation
 
-# Lambda
+# Lambda Expression
 - Sorting + Comparator + with/without Lambda Expression
 - Java8
 ```java
@@ -18,4 +18,30 @@
 	});
 ```
 
+# forEach
+-List + Map+ with/without forEach
+-java 8
+```java
+	/* forEach + lambda expression or method */
+	items.forEach(item -> System.out.println(item));
 
+	/* Output:-C */
+	items.forEach(item -> {
+		if ("C".equals(item)) {
+			System.out.println();
+			System.out.println(item);
+		}
+	});
+```
+```java
+	/* forEach + lambda expression */
+	items.forEach((k, v) -> System.out.println("Item : " + k + " Count : " + v));
+
+	/* Output:-C */
+	items.forEach((k, v) -> {
+		System.out.println("Item : " + k + " Count : " + v);
+		if ("C".equals(k)) {
+			System.out.println("C");
+		}
+	});
+```
