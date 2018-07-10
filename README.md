@@ -48,3 +48,21 @@
 		}
 	});
 ```
+
+## 3. Stream Filter
+- java8
+- String + Stream + Filter + Collectors
+```java
+	List<String> lines = Arrays.asList("spring", "node", "mkyong");
+	lines.stream().filter(line -> !name.equals(line)).collect(Collectors.toList());
+```
+
+## 4. Stream Map
+- java8
+- String + Stream + Map + Collectors
+```java
+	List<String> lines = Arrays.asList("s", "n", "m");
+	lines.stream().map(String::toUpperCase).collect(Collectors.toList());
+```
+
+## 5. Stream Collectors groupingBy
