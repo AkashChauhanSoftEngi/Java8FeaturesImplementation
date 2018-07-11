@@ -9,13 +9,10 @@
   
   /*Instead*/
   Collections.sort(students, new Comparator<Student>() {
-
-				@Override
-				public int compare(Student o1, Student o2) {
-					return o1.getAge() - o2.getAge();
-				}
-
-	});
+	@Override
+	public int compare(Student o1, Student o2) {
+		return o1.getAge() - o2.getAge();
+  }});
 ```
 
 ## 2. forEach
@@ -69,7 +66,7 @@
 - java8
 - String + Stream + Map + Collectors + Collectors.groupingBy()
 ```java
- 	Map<String, Long> result = items.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+  Map<String, Long> result = items.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 ```
 
 ## 6. 
