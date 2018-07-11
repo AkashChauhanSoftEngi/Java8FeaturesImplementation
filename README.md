@@ -66,3 +66,10 @@
 ```
 
 ## 5. Stream Collectors groupingBy
+- java8
+- String + Stream + Map + Collectors + Collectors.groupingBy()
+```java
+	 Map<String, Long> result = items.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+```
+
+## 6. 
