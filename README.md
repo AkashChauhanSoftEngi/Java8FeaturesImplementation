@@ -70,5 +70,3 @@
 	Function.identity(), Collectors.counting())
 	);
 ```
-
-## 6.  
