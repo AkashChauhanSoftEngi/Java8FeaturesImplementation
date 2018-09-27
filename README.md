@@ -52,16 +52,16 @@
   - interface Callable -> call()
 * If anonymous inner class implements FI{SAM}, then only lambda expressions can be used but not for all AIC
 * AIC: Anonymous Inner Classes
-* At least and most one FI, and any number of default and static methods are allowed
+* At least and most one SAM in FI, and any number of default and static methods are allowed
 
 
 ## 3. Default methods in Interface {Virtual Extension/Defender Method}
-* Until 1.7V every method present in interface must be public and abstract [Optional]
+* Until 1.7V every method present in interface must be public and abstract {Signs are Optional}
 * Every variable present inside interface: public + static + final
 * since 1.8v, inside interface default and static methods are allowed
 * since 1.9v, even private methods are also allowed
 * Since 1.8v, inside Interface, default method(Optional Method) is added as if abstract method addition will create problem in already existing implementation classes
-* Without affecting the implementation classes if we want to add new methods to the interface ==> Default methods
+* Without affecting the implementation classes if we want to add new methods to the interface ==> use Default methods
 * It is not default modifier, as if no modifier then it is default access modifier
 * Default methods only inside Interface, if overriding in implementation class then must use, public with them
 * Object class methods are not allowed as default methods as they are already available, as it is already a child class of object class 
