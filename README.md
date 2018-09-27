@@ -8,7 +8,7 @@
  * Though the Current version: Java-10
 
 ```text
-* ################# Main Features #######################
+################# Main Features #######################
  1. Lambda Expressions {->}
  2. Functional Interfaces 
  3. Default methods in Interface 
@@ -20,7 +20,7 @@
  9. Method Reference & Constructor Reference by Double Colon(::) Operator.
  10. Stream API
  11. Date & Time API ( JODA API)
-'''text
+```
 
 ## 1. Lambda Expressions {->}
 * It is an anonymous function
@@ -31,7 +31,7 @@
 * LE is applicable only on FI.
 * No separate .class file will be generated for LE.
 * Ex: n->n*n;
-* FI: Functional Interface [Single abstract method only,  in a Interface{SAM}->FI]
+* FI: Functional Interface {Single abstract method only, in a Interface{SAM}->FI}
 * To invoke Lambda Expressions, FI must be required
 * FI should contain exactly one SAM but allowed to use any number of default & static methods
   - number of default methods and static methods can be 0 as well, restriction is SAM
@@ -79,7 +79,6 @@
 
 
 ## 5. Predefined Functional Interface {inside java.util.function; package}
-* ----------------------------------------------------------------------------------------------------------
 * Predicate<T>	->boolean test(T t); {conditional/boolean checking}
 * Function<T,R>	->R apply(T t); {} {Any return type, not restricted to only boolean type}
 * Consumer<T>	->void accept(T t); {take some input, perform some operation and do not return anything}
@@ -119,7 +118,7 @@
 * ---------------------------------------------------------
 
 # Examples
-* ---------------------------------------------------------------------------------------------------
+
 ## 1. Lambda Expression
 - Sorting + Comparator + with/without Lambda Expression
 - Java8
@@ -190,4 +189,3 @@
 	Function.identity(), Collectors.counting())
 	);
 ```
-* -----------------------------------------------------------------------------------------------------
