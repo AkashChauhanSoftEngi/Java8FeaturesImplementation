@@ -1,4 +1,4 @@
-# Java8FeaturesImplementation
+# Java8NewFeatures
 
 * Java-8 Features (Since March 2014)
 * Main Reasons to use Lambda Expressions
