@@ -100,6 +100,7 @@
 * BiFunction {normal can take one input, this one can take two inputs}
 * BiConsumer {normal can take one input, this one can take two inputs}
 * BiSupplier: no such function exist!
+* For three arguments, no such Functional Interfaces are there
 * ---------------------------------------------------------------------- 
 * Predicate Join: default methods 
   - p.and(q).test(T)
