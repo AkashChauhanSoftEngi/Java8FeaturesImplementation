@@ -116,10 +116,48 @@
 * IntFunction {int input only and but can return anything}
 * IntConsumer {int input only, no return as usual}
 * IntSupplier {no input as usual, int output only}
-* ---------------------------------------------------------
+* Since Java 1.5v Auto boxing/unboxing concept is there
+  - int->Integer->int
+* So if one uses these Primitive Functional Interfaces, Autoboxing and Autounboxing will not be used
+* Predicates Types of Predicate
+  - IntPredicate
+  - DoublePredicate
+  - LongPredicate
+* Primitive version is not available for two arguments compulsory we have to choose Bi--- FI only.
+* Primitive type of Functions
+  - DoubleFunction
+  - DoubleToIntFunction (Input as double, output/return type as int)
+  - DoubleToLongFunction
+  - IntToLongFunction
+  - ToIntBiFunction {int as return, input can be anything}
+  - ToIntFunction
+  - ToDoubleBiFunction
+  - ToLongBiFunction
+  - ToLongFunction
+* Primitive type of Consumer
+  - IntConsumer {input always int}
+  - LongConsumer
+  - DoubleConsumer
+  - ObjIntConsumer {one argument is always int, another can be anything}
+  - ObjDoubleConsumer
+* Primitive type of Supplier
+  - BooleanSupplier
+  - IntSupplier
+  - LongSupplier
+  - DoubleSupplier  
+
+## UnaryOperator {one input}
+ * UnaryOperator<T> {Child of a Function(I)}
+ * IntUnaryOperator {input=output = int}
+ * DoubleUnaryOperator {input=output = double}
+
+ ## BinaryOperator {two input}
+ * BinaryOperator {Child of BiFunction<T,T,T>, all three are same return type}
+ * IntBinaryOperator {all three are int}
+ * DoubleBinaryOperator
+ * LongBinaryOperator
 
 # Examples
-
 ## 1. Lambda Expression
 - Sorting + Comparator + with/without Lambda Expression
 - Java8
