@@ -79,6 +79,7 @@
 
 
 ## 5. Predefined Functional Interface {inside java.util.function; package}
+* ---------------------------------------------------------------------------------------------------------
 * Predicate<T>	->boolean test(T t); {conditional/boolean checking}
 * Function<T,R>	->R apply(T t); {} {Any return type, not restricted to only boolean type}
 * Consumer<T>	->void accept(T t); {take some input, perform some operation and do not return anything}
@@ -116,6 +117,7 @@
 * IntFunction {int input only and but can return anything}
 * IntConsumer {int input only, no return as usual}
 * IntSupplier {no input as usual, int output only}
+* ---------------------------------------------------------
 * Since Java 1.5v Auto boxing/unboxing concept is there
   - int->Integer->int
 * So if one uses these Primitive Functional Interfaces, Autoboxing and Autounboxing will not be used
@@ -147,15 +149,16 @@
   - DoubleSupplier  
 
 ## UnaryOperator {one input}
- * UnaryOperator<T> {Child of a Function(I)}
- * IntUnaryOperator {input=output = int}
- * DoubleUnaryOperator {input=output = double}
+* UnaryOperator<T> {Child of a Function(I)}
+* IntUnaryOperator {input=output = int}
+* DoubleUnaryOperator {input=output = double}
 
- ## BinaryOperator {two input}
- * BinaryOperator {Child of BiFunction<T,T,T>, all three are same return type}
- * IntBinaryOperator {all three are int}
- * DoubleBinaryOperator
- * LongBinaryOperator
+## BinaryOperator {two input}
+* BinaryOperator {Child of BiFunction<T,T,T>, all three are same return type}
+* IntBinaryOperator {all three are int}
+* DoubleBinaryOperator
+* LongBinaryOperator
+* -------------------------------------------------------------------------------------
 
 # Examples
 ## 1. Lambda Expression
