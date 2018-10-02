@@ -148,18 +148,18 @@
   - LongSupplier
   - DoubleSupplier  
 
-## UnaryOperator {one input}
+## 8. UnaryOperator {one input}
 * UnaryOperator<T> {Child of a Function(I)}
 * IntUnaryOperator {input=output = int}
 * DoubleUnaryOperator {input=output = double}
 
-## BinaryOperator {two input}
+## 9. BinaryOperator {two input}
 * BinaryOperator {Child of BiFunction<T,T,T>, all three are same return type}
 * IntBinaryOperator {all three are int}
 * DoubleBinaryOperator
 * LongBinaryOperator
 
-## Method Reference
+## 10. Method Reference
 * To reuse already existing implemented code as FI implementations {Code reuse-ability}
 * Alternative to lembda expression
 * For static methods
@@ -168,7 +168,7 @@
   - Object reference::method name
 * It does not matter if return type or access modifier are different but arguments should be same and same types
  
-## Constructor Reference
+## 11. Constructor Reference
 * If implementations are already not available, then we can go for constructor reference
 * When FI method returns an object
 * Object Reference::new
