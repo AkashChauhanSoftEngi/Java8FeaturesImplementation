@@ -158,6 +158,23 @@
 * IntBinaryOperator {all three are int}
 * DoubleBinaryOperator
 * LongBinaryOperator
+
+## Method Reference
+* To reuse already existing implemented code as FI implementations {Code reuse-ability}
+* Alternative to lembda expression
+* For static methods
+  - class name::method name
+* For non static methods
+  - Object reference::method name
+* It does not matter if return type or access modifier are different but arguments should be same and same types
+ 
+## Constructor Reference
+* If implementations are already not available, then we can go for constructor reference
+* When FI method returns an object
+* Object Reference::new
+* When: FI method returns an object, reuse existing constructor code and related object
+* In case of method having arguments, constructor should also have the same type of arguments.
+* Among all constructor, arguments similar with method of FI, constructor will be called
 * -------------------------------------------------------------------------------------
 
 # Examples
