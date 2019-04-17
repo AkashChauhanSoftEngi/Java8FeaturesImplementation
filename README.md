@@ -225,7 +225,6 @@
 ```
 
 ## 3. Stream Filter
-- java8
 - String + Stream + Filter + Collectors
 ```java
 	List<String> lines = Arrays.asList("spring", "node", "mkyong");
@@ -233,7 +232,6 @@
 ```
 
 ## 4. Stream Map
-- java8
 - String + Stream + Map + Collectors
 ```java
 	List<String> lines = Arrays.asList("s", "n", "m");
@@ -241,7 +239,6 @@
 ```
 
 ## 5. Stream Collectors groupingBy
-- java8
 - String + Stream + Map + Collectors + Collectors.groupingBy()
 ```java
   	Map<String, Long> result = items.stream().collect(Collectors.groupingBy(
