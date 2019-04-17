@@ -180,7 +180,6 @@
 # Examples
 ## 1. Lambda Expression
 - Sorting + Comparator + with/without Lambda Expression
-- Java8
 ```java
 	List<Student> students = new ArrayList<Student>();
   	students.sort((Student s1, Student s2)->s1.getAge()-s2.getAge());
@@ -195,7 +194,6 @@
 
 ## 2. forEach
 - List + Map+ with/without forEach
-- java 8
 ```java
 	/* forEach + lambda expression or method */
 	items.forEach(item -> System.out.println(item));
